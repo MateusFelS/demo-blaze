@@ -97,9 +97,9 @@ Os testes de API foram realizados utilizando **Postman** e scripts automatizados
 }
 ```
 
+![image](https://github.com/user-attachments/assets/f9b0af22-dde7-4489-b150-5e84c55562e8)
+
 ## 📌 Conclusão
 Este projeto garante a qualidade do DemoBlaze, identificando erros e automatizando os testes dos principais fluxos. 🚀
 
 Se você quiser contribuir, sinta-se à vontade para abrir um Pull Request ou reportar um Issue!
-
-![image](https://github.com/user-attachments/assets/f9b0af22-dde7-4489-b150-5e84c55562e8)
