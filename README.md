@@ -79,24 +79,6 @@ Os testes de API foram realizados utilizando **Postman** e scripts automatizados
    - **Cenários**:  
      - Listar todos os produtos disponíveis.  
 
-### 📌 Exemplo de Teste de API com Postman  
-
-#### Requisição de Login (POST /login)  
-- **Corpo da Requisição**:  
-  ```json
-  {
-    "username": "testuser",
-    "password": "test123"
-  }
-  ```
-  
-- **Resposta Esperada**:
-```json
-{
-  "Auth_token": "token_de_autenticação"
-}
-```
-
 ![image](https://github.com/user-attachments/assets/f9b0af22-dde7-4489-b150-5e84c55562e8)
 
 ## 📌 Conclusão
