@@ -90,26 +90,10 @@ Os testes de API foram realizados utilizando **Postman** e scripts automatizados
   }
   ```
   
-### Resposta Esperada:
+- **Resposta Esperada**:
 ```json
 {
   "Auth_token": "token_de_autenticação"
-}
-```
-
-### Requisição de Cadastro (POST /signup)
-- **Corpo da Requisição**: 
-```json
-{
-  "username": "newuser",
-  "password": "newpass123"
-}
-```
-
-### Resposta Esperada:
-```json
-{
-  "message": "Sign up successful."
 }
 ```
 
