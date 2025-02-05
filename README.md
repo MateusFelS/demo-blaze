@@ -37,9 +37,11 @@ A automação foi realizada utilizando **Playwright**, garantindo a execução d
 - **Framework de Teste**: Playwright  
 - **Gerenciador de Pacotes**: npm  
 
+---
+
 ## 🧑‍💻 Testes de API  
 
-Os testes de API foram realizados utilizando **Postman** e scripts automatizados para validar os endpoints do DemoBlaze. Abaixo estão os principais testes realizados:  
+Os testes de API foram realizados utilizando **Postman** para validar os endpoints do DemoBlaze. Abaixo estão os principais testes realizados:  
 
 ### 📌 Endpoints Testados  
 
@@ -79,7 +81,7 @@ Os testes de API foram realizados utilizando **Postman** e scripts automatizados
    - **Cenários**:  
      - Listar todos os produtos disponíveis.  
 
-![image](https://github.com/user-attachments/assets/f9b0af22-dde7-4489-b150-5e84c55562e8)
+---
 
 ## 📌 Conclusão
 Este projeto garante a qualidade do DemoBlaze, identificando erros e automatizando os testes dos principais fluxos. 🚀
