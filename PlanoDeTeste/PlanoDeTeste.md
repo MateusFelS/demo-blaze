@@ -39,9 +39,10 @@ Funcionalidades testadas:
 | 9   | Carrinho vazio | 1. Acessar o carrinho sem adicionar nenhum item | Mensagem "Your cart is empty" aparece. |
 | 10  | Fluxo de navegação - Página de contato | 1. Clicar no link "Contact" <br> 2. Verificar se a página de contato é aberta corretamente | Página de contato carrega corretamente e é possível enviar uma mensagem. |
 | 11  | Fluxo de navegação - Página "Sobre nós" | 1. Clicar no link "About us" <br> 2. Verificar se a página de informações da loja carrega | Página "About us" abre corretamente com as informações da empresa. |
-| 12  | Fluxo de navegação - Ícone do carrinho | 1. Clicar no ícone do carrinho na barra superior <br> 2. Verificar se a página do carrinho abre corretamente | Página do carrinho abre corretamente. |
-| 13  | UI/UX - Responsividade | 1. Acessar o site em diferentes dispositivos (mobile, tablet e desktop) <br> 2. Verificar se os elementos se ajustam corretamente | O layout do site se adapta bem a diferentes tamanhos de tela. |
-| 14  | UI/UX - Acessibilidade | 1. Verificar se os botões possuem descrições alternativas <br> 2. Testar a navegação apenas com o teclado | O site é acessível e pode ser navegado sem o uso do mouse. |
+| 12  | Fluxo de navegação - Página do carrinho | 1. Clicar no ícone do carrinho na barra superior <br> 2. Verificar se a página do carrinho abre corretamente | Página do carrinho abre corretamente. |
+| 13  | Filtro de itens                   | 1. Escolher uma categoria no filtro de produtos <br> 2. Verificar se o filtro selecionou os produtos corretamente.                              | Apenas os itens da categoria selecionada devem aparecer na listagem.           |
+| 14  | UI/UX - Responsividade | 1. Acessar o site em diferentes dispositivos (mobile, tablet e desktop) <br> 2. Verificar se os elementos se ajustam corretamente | O layout do site se adapta bem a diferentes tamanhos de tela. |
+| 15  | UI/UX - Acessibilidade | 1. Verificar se os botões possuem descrições alternativas <br> 2. Testar a navegação apenas com o teclado | O site é acessível e pode ser navegado sem o uso do mouse. |
 
 ## 7. Gerenciamento de Defeitos (Bugs)
 - **Plataforma utilizada:** Github
