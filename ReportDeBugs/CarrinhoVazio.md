@@ -17,7 +17,7 @@
 - **Usabilidade**: Pode confundir usuários, pois a ausência de mensagem pode dar a impressão de erro ou funcionamento inadequado.  
 
 ### Ambiente de Teste  
-- **Navegadores**: Chrome e Brave  
+- **Dispositivos**: Desktop (Chrome e Brave)  
 - **Sistema Operacional**: Windows 11
 
 ### Severidade  
