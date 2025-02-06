@@ -7,7 +7,7 @@ Os testes incluem **testes manuais e automatizados**, utilizando **Playwright** 
 
 ---
 
-## 📝 Plano de Testes  
+## 📝 Sobre os Testes
 
 ### 🎯 Escopo  
 As seguintes funcionalidades foram testadas:  
