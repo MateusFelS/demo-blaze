@@ -17,8 +17,8 @@
 - **Usabilidade**: Dificulta a navegação no site, especialmente para usuários mobile.  
 
 ### Ambiente de Teste  
-- **Navegadores**: Chrome e Brave 
-- **Sistema Operacional**: Windows 11 e Android 
+- **Dispositivos**: Desktop (Brave e Chrome) e Xiaomi Redmi 9A (Chrome) 
+- **Sistema Operacional**: Windows 11 e Android 10
 
 ### Severidade  
 - **Média**  
