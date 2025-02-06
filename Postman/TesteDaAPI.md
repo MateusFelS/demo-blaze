@@ -30,7 +30,6 @@ Este documento apresenta os endpoints testados manualmente no **Postman**, cobri
  | Método | Endpoint      | Descrição |
  |--------|-------------|-----------|
  | GET  | /entries  | Retorna a lista de produtos disponíveis na loja. |
- | GET  | /prod?id=1 | Retorna detalhes do produto com ID 1. |
 
  ### Exemplo de resposta da lista de produtos
  ```json
@@ -80,30 +79,3 @@ Este documento apresenta os endpoints testados manualmente no **Postman**, cobri
  ```
 ### Evicência
 ![image](https://github.com/user-attachments/assets/2874ccdd-5b0a-4dde-85eb-e1665094a27e)
-
-## Compras
- | Método | Endpoint      | Descrição |
- |--------|-------------|-----------|
- | POST | /placeorder | Finaliza a compra. |
- 
- ### Exemplo de finalização de compra
- ```json
-  {
-    "cookie": "user=testuser", // Cookie de autenticação
-    "flag": "true",
-    "name": "João Silva", // Nome do cliente
-    "country": "Brasil", // País
-    "city": "São Paulo", // Cidade
-    "creditCard": "1234567890123456", // Número do cartão de crédito
-    "month": "12", // Mês de expiração do cartão
-    "year": "2025", // Ano de expiração do cartão
-    "orderId": "123456" // ID do pedido (gerado automaticamente ou manualmente)
-  }
- ```
- ### Exemplo de resposta de compra finalizada
- ```json
- {
-  "status": "success",
-  "order_id": 98765
-}
- ```
