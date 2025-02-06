@@ -23,7 +23,7 @@ Este documento apresenta os endpoints testados manualmente no **Postman**, cobri
   "Auth_token": "token_gerado_aqui"
  }
  ```
-### Evidência
+### Exemplo no Postman
 ![image](https://github.com/user-attachments/assets/c4334b52-3c0f-4680-9969-ccd945a20ce9)
 
 ## Produtos
@@ -46,7 +46,7 @@ Este documento apresenta os endpoints testados manualmente no **Postman**, cobri
   ]
  }
  ```
-### Evidência
+### Exemplo no Postman
 ![image](https://github.com/user-attachments/assets/15a4c49b-b49d-4efd-b586-57582c3021b5)
 
 ## Carrinho
@@ -77,5 +77,5 @@ Este documento apresenta os endpoints testados manualmente no **Postman**, cobri
   ]
  }
  ```
-### Evicência
+### Exemplo no Postman
 ![image](https://github.com/user-attachments/assets/2874ccdd-5b0a-4dde-85eb-e1665094a27e)
