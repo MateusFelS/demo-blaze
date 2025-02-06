@@ -23,6 +23,9 @@ Este documento apresenta os endpoints testados manualmente no **Postman**, cobri
   "Auth_token": "token_gerado_aqui"
  }
  ```
+### Evidência
+![image](https://github.com/user-attachments/assets/c4334b52-3c0f-4680-9969-ccd945a20ce9)
+
 ## Produtos
  | Método | Endpoint      | Descrição |
  |--------|-------------|-----------|
@@ -44,6 +47,9 @@ Este documento apresenta os endpoints testados manualmente no **Postman**, cobri
   ]
  }
  ```
+### Evidência
+![image](https://github.com/user-attachments/assets/15a4c49b-b49d-4efd-b586-57582c3021b5)
+
 ## Carrinho
 | Método | Endpoint       | Descrição |
  |--------|--------------|-----------|
@@ -72,6 +78,9 @@ Este documento apresenta os endpoints testados manualmente no **Postman**, cobri
   ]
  }
  ```
+### Evicência
+![image](https://github.com/user-attachments/assets/2874ccdd-5b0a-4dde-85eb-e1665094a27e)
+
 ## Compras
  | Método | Endpoint      | Descrição |
  |--------|-------------|-----------|
@@ -79,17 +88,17 @@ Este documento apresenta os endpoints testados manualmente no **Postman**, cobri
  
  ### Exemplo de finalização de compra
  ```json
- {
-  "name": "João",
-  "credit_card": "1234-5678-9101-1121",
-  "address": "Rua Teste, 123",
-  "cart": [
-    {
-      "prod_id": 1,
-      "price": 360
-    }
-  ]
- }
+  {
+    "cookie": "user=testuser", // Cookie de autenticação
+    "flag": "true",
+    "name": "João Silva", // Nome do cliente
+    "country": "Brasil", // País
+    "city": "São Paulo", // Cidade
+    "creditCard": "1234567890123456", // Número do cartão de crédito
+    "month": "12", // Mês de expiração do cartão
+    "year": "2025", // Ano de expiração do cartão
+    "orderId": "123456" // ID do pedido (gerado automaticamente ou manualmente)
+  }
  ```
  ### Exemplo de resposta de compra finalizada
  ```json
