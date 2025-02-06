@@ -21,7 +21,7 @@ Funcionalidades testadas:
 - As mensagens de erro devem ser claras e objetivas
 
 ## 5. Ambientes e Ferramentas
-- **Ambiente de teste:** produção
+- **Ambiente:** Teste 
 - **Ferramentas usadas:** Playwright e Postman
 
 ## 6. Casos de Teste
