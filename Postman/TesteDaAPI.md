@@ -56,26 +56,24 @@ Este documento apresenta os endpoints testados manualmente no **Postman**, cobri
  | GET  | /viewcart  | Retorna os itens do carrinho do usuário. |
  | DELETE | /deletecart | Remove um item do carrinho. |
 
- ### Exemplo de adição ao carrinho
+ ### Exemplo de visualizar o carrinho
  ```json
- {
-  "id": 1,
-  "cookie": "id_sessao_do_usuario",
-  "prod_id": 1,
-  "flag": true
- }
+{
+  "cookie": "id_sessão_usuário", 
+  "flag": "true"
+}
  ```
  ### Exemplo de resposta ao visualizar o carrinho
  ```json
- {
-  "Items": [
-    {
-      "prod_id": 1,
-      "title": "Samsung galaxy s6",
-      "price": 360
-    }
-  ]
- }
+{
+    "Items": [
+        {
+            "cookie": "newuser123123312",
+            "id": 1,
+            "prod_id": 1
+        }
+    ]
+}
  ```
 ### Exemplo no Postman
 ![image](https://github.com/user-attachments/assets/2874ccdd-5b0a-4dde-85eb-e1665094a27e)
