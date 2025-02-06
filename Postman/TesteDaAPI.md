@@ -33,17 +33,17 @@ Este documento apresenta os endpoints testados manualmente no **Postman**, cobri
 
  ### Exemplo de resposta da lista de produtos
  ```json
- {
-   "Items": [
-      {
-        "cat": "phone",
-        "desc": "The Samsung Galaxy S6 is powered by 1.5GHz octa-core Samsung Exynos 7420\n processor and it comes with 3GB of RAM. The phone packs 32GB of \ninternal storage cannot be expanded. ",
-        "id": 1,
-        "img": "imgs/galaxy_s6.jpg",
-        "price": 360.0,
-        "title": "Samsung galaxy s6"
-     },
-  ]
+{
+    "Items": [
+        {
+            "cat": "phone",
+            "desc": "The Samsung Galaxy S6 is powered by 1.5GHz octa-core Samsung Exynos 7420\n processor and it comes with 3GB of RAM. The phone packs 32GB of \ninternal storage cannot be expanded. ",
+            "id": 1,
+            "img": "imgs/galaxy_s6.jpg",
+            "price": 360.0,
+            "title": "Samsung galaxy s6"
+        },
+    ]
 }
  ```
 ### Exemplo no Postman
