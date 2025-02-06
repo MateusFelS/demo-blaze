@@ -33,9 +33,8 @@ As seguintes funcionalidades foram testadas:
 A automação foi realizada utilizando **Playwright**, garantindo a execução dos principais fluxos automaticamente.  
 
 ### 📌 Tecnologias Utilizadas  
-- **Linguagem**: JavaScript  
+- **Linguagem**: TypeScript  
 - **Framework de Teste**: Playwright  
-- **Gerenciador de Pacotes**: npm  
 
 ---
 
