@@ -44,7 +44,7 @@ Funcionalidades testadas:
 | 14  | UI/UX - Acessibilidade | 1. Verificar se os botões possuem descrições alternativas <br> 2. Testar a navegação apenas com o teclado | O site é acessível e pode ser navegado sem o uso do mouse. |
 
 ## 7. Gerenciamento de Defeitos (Bugs)
-- **Plataforma utilizada:** Jira
+- **Plataforma utilizada:** Github
 - **Critérios de Prioridade:**
   - **Alta:** Erros críticos que impedem a compra ou login.
   - **Média:** Problemas de navegação ou UI que dificultam o uso do site.
